@@ -761,7 +761,7 @@
 					};
 					1453D09C24425C5900340789 = {
 						CreatedOnToolsVersion = 11.4;
-						DevelopmentTeam = HU45578K6L;
+						DevelopmentTeam = 8YTCB7QZW6;
 						ProvisioningStyle = Automatic;
 					};
 					14872E7A1F59DBC50017AF3F = {
@@ -772,7 +772,7 @@
 					};
 					14CA2D521F40007000900937 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = HU45578K6L;
+						DevelopmentTeam = 8YTCB7QZW6;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -789,7 +789,7 @@
 					};
 					14CA2D681F40008F00900937 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = HU45578K6L;
+						DevelopmentTeam = 8YTCB7QZW6;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
@@ -1186,7 +1186,7 @@
 				CODE_SIGN_ENTITLEMENTS = genmock/genmock.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HU45578K6L;
+				DEVELOPMENT_TEAM = 8YTCB7QZW6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1204,7 +1204,7 @@
 				CODE_SIGN_ENTITLEMENTS = genmock/genmock.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HU45578K6L;
+				DEVELOPMENT_TEAM = 8YTCB7QZW6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -1280,7 +1280,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HU45578K6L;
+				DEVELOPMENT_TEAM = 8YTCB7QZW6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1288,7 +1288,7 @@
 				);
 				INFOPLIST_FILE = MockGeneratorApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.debug;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.debug.emesa.app;
 				PRODUCT_MODULE_NAME = MockGeneratorApp;
 				PRODUCT_NAME = "Swift Mock Generator for Xcode";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1302,10 +1302,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MockGeneratorApp/MockGeneratorApp.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HU45578K6L;
+				DEVELOPMENT_TEAM = 8YTCB7QZW6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1313,10 +1313,10 @@
 				);
 				INFOPLIST_FILE = MockGeneratorApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.emesa.app;
 				PRODUCT_MODULE_NAME = MockGeneratorApp;
 				PRODUCT_NAME = "Swift Mock Generator for Xcode";
-				PROVISIONING_PROFILE_SPECIFIER = "Mock Generator Developer ID";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -1328,7 +1328,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HU45578K6L;
+				DEVELOPMENT_TEAM = 8YTCB7QZW6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1342,7 +1342,7 @@
 					"-framework",
 					SwiftToolkit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.debug.XcodePlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.debug.emesa.app.XcodePlugin;
 				PRODUCT_NAME = "Mock Generator";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -1354,10 +1354,10 @@
 			baseConfigurationReference = 191EF6A520F451D100118C74 /* Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = XcodePlugin/XcodePlugin.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HU45578K6L;
+				DEVELOPMENT_TEAM = 8YTCB7QZW6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1370,9 +1370,9 @@
 					"-framework",
 					SwiftToolkit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.XcodePlugin;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.seanhenry.MockGeneratorApp.emesa.app.XcodePlugin;
 				PRODUCT_NAME = "Mock Generator";
-				PROVISIONING_PROFILE_SPECIFIER = "Mock Generator Extension Developer ID";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
